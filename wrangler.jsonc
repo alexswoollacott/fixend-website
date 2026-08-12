@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "fixend",
+  "pages_build_output_dir": ".",
+  "compatibility_date": "2026-08-12",
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "fixend",
+      "database_id": "27cd9adf-42b0-44fc-a652-b3c89a71880a"
+    }
+  ]
+}
