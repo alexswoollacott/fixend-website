@@ -8,4 +8,3 @@
 
 The `/functions` folder provides `/api/problems`, `/api/answers`, and `/api/votes`.
 For a public launch, add real authentication and rate limiting/anti-spam.
-
