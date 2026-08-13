@@ -1,0 +1,13 @@
+{
+  "name": "fixend",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy",
+    "db:local": "wrangler d1 migrations apply fixend-db --local",
+    "db:remote": "wrangler d1 migrations apply fixend-db --remote"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
